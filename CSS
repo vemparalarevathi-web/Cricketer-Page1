@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.profile-header {
+    background-color: #f64f73;
+    /* Pink background */
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.profile-header img {
+    width: 120px;
+    float: right;
+}
+
+.card-section {
+    background-color: #eaf6ff;
+    /* Light blue */
+    padding: 20px;
+}
+
+.record-card {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.record-card img {
+    width: 100px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.videos img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.videos h6 {
+    font-size: 14px;
+}
+
+.btn-view {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
